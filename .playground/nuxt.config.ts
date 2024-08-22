@@ -1,4 +1,4 @@
 export default defineNuxtConfig({
-  extends: ['..'],
+  extends: [['../layer', {install: true}]],
   modules: ['@nuxt/eslint']
 })
